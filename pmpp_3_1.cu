@@ -62,19 +62,13 @@ int main()
 
     array_add((float *)h_A, (float *)h_B, (float *)h_C, dim);
 
+    // NOT getting any out put here 
+
     for (int i= 0; i<dim ;i++)
     { for (int j = 0 ; j< dim; j++)
     {
         printf("%.f ", h_C[i][j]);
     }
     }
-
- 
-
-
-
-
-    
-
 
 }
